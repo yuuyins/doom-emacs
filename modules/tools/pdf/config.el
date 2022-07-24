@@ -40,7 +40,7 @@
   ;; Emacs and spew out compiler output for a few minutes in those cases. It's
   ;; abysmal UX. The `pdf-view-mode' advice above works around this with a less
   ;; cryptic failure message, at least.
-  (pdf-tools-install-noverify)
+  ;; (pdf-tools-install-noverify)
 
   ;; For consistency with other special modes
   (map! :map pdf-view-mode-map :gn "q" #'kill-current-buffer)
